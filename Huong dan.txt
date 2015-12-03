@@ -1,0 +1,10 @@
+Bước 1 : chạy 2 file theo thứ tự
+		nckh_moduleDanhGia.sql
+		nckh_moduleDanhGia_procedure.sql
+		
+Bước 2: chạy nckh_module_ranking.jar
+
+* Hướng dẫn sử dụng file config.xml
+period_time : khoảng thời gian query bài báo để đánh giá. Đơn vị ngày.
+			Vd : period_time = 2 => lấy bài báo cách thời điểm xét 2 ngày
+sleep_time : thời gian giữa 2 lần chạy module đánh giá. Đơn vị ngày.

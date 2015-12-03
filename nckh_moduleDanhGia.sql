@@ -1,0 +1,11 @@
+create table module_ranking (idTableArticle int primary key,
+    title nvarchar(200),
+    contenturl nvarchar(200),
+    categoryid int,
+    magazineid int,
+    description text,
+    imageurl nvarchar(300),
+    newstime timestamp,
+    _like int,
+    _cmt int,
+    _share int);

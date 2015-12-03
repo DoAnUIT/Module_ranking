@@ -1,0 +1,4 @@
+<sleep>
+	<period_time>5</period_time> <!-- don vi ngay -->
+	<sleep_time>0.1</sleep_time> <!-- don vi gio -->
+</sleep>
